@@ -154,52 +154,52 @@ exit
 exit
 commit apply`;return M.jsxs("div",{children:[M.jsx(Tu,{size:30,onClick:()=>Eu(T.trim())}),M.jsx("div",{style:{backgroundColor:"#f5f5f5",padding:"1rem",borderRadius:"8px",fontFamily:"monospace",whiteSpace:"pre-wrap",overflowX:"auto",height:250,width:240},children:T.trim()})]})},vr=({keyActive:c,halfID:T})=>{const O=`
 configure terminal
-wlan ssid-profile ${c}-1
+wlan ssid-profile ${c}1
 no hide
 exit
-wlan ssid-profile ${c}-2
+wlan ssid-profile ${c}2
 no hide
 exit
-wlan ssid-profile ${c}-3
+wlan ssid-profile ${c}3
 no hide
 exit
-wlan ssid-profile ${c}-4
+wlan ssid-profile ${c}4
 no hide
 exit
-wlan ssid-profile ${c}-5
+wlan ssid-profile ${c}5
 no hide
 exit
-wlan ssid-profile ${c}-6
+wlan ssid-profile ${c}6
 no hide
 exit
-wlan ssid-profile ${c}-7
+wlan ssid-profile ${c}7
 no hide
 exit
-wlan ssid-profile ${c}-8
+wlan ssid-profile ${c}8
 no hide
 exit
-wlan ssid-profile ${c}-9
+wlan ssid-profile ${c}9
 hide
 exit
-wlan ssid-profile ${c}-10
+wlan ssid-profile ${c}10
 hide
 exit
-wlan ssid-profile ${c}-11
+wlan ssid-profile ${c}11
 hide
 exit
-wlan ssid-profile ${c}-12
+wlan ssid-profile ${c}12
 hide
 exit
-wlan ssid-profile ${c}-13
+wlan ssid-profile ${c}13
 hide
 exit
-wlan ssid-profile ${c}-14
+wlan ssid-profile ${c}14
 hide
 exit
-wlan ssid-profile ${c}-15
+wlan ssid-profile ${c}15
 hide
 exit
-wlan ssid-profile ${c}-16
+wlan ssid-profile ${c}16
 hide
 exit
 exit
@@ -357,6 +357,7 @@ no hide
 exit
 exit
 commit apply`;return M.jsxs("div",{children:[M.jsx(Tu,{size:30,onClick:()=>Eu(T.trim())}),M.jsx("div",{style:{backgroundColor:"#f5f5f5",padding:"1rem",borderRadius:"8px",fontFamily:"monospace",whiteSpace:"pre-wrap",overflowX:"auto",height:250,width:240},children:T.trim()})]})},br=({keyActive:c,vlanFrom:T,partID:O})=>{const h=`
+configure terminal
 wlan ssid-profile ${c}1
  enable
  type employee
@@ -374,7 +375,6 @@ wlan ssid-profile ${c}1
  local-probe-req-thresh 0
  max-clients-threshold 64
 exit
-
 wlan ssid-profile ${c}2
  enable
  type employee
@@ -392,7 +392,6 @@ wlan ssid-profile ${c}2
  local-probe-req-thresh 0
  max-clients-threshold 64
 exit
-
 wlan ssid-profile ${c}3
  enable
  type employee
@@ -410,7 +409,6 @@ wlan ssid-profile ${c}3
  local-probe-req-thresh 0
  max-clients-threshold 64
 exit
-
 wlan ssid-profile ${c}4
  enable
  type employee
@@ -428,7 +426,6 @@ wlan ssid-profile ${c}4
  local-probe-req-thresh 0
  max-clients-threshold 64
 exit
-
 wlan ssid-profile ${c}5
  enable
  type employee
@@ -446,7 +443,6 @@ wlan ssid-profile ${c}5
  local-probe-req-thresh 0
  max-clients-threshold 64
 exit
-
 wlan ssid-profile ${c}6
  enable
  type employee
@@ -464,7 +460,6 @@ wlan ssid-profile ${c}6
  local-probe-req-thresh 0
  max-clients-threshold 64
 exit
-
 wlan ssid-profile ${c}7
  enable
  type employee
@@ -482,7 +477,6 @@ wlan ssid-profile ${c}7
  local-probe-req-thresh 0
  max-clients-threshold 64
 exit
-
 wlan ssid-profile ${c}8
  enable
  type employee
@@ -527,6 +521,7 @@ exit
 exit
 commit apply
 `,H=`
+configure terminal
 wlan ssid-profile ${c}9
  enable
  type employee
@@ -544,7 +539,6 @@ wlan ssid-profile ${c}9
  local-probe-req-thresh 0
  max-clients-threshold 64
 exit
-
 wlan ssid-profile ${c}10
  enable
  type employee
@@ -562,7 +556,6 @@ wlan ssid-profile ${c}10
  local-probe-req-thresh 0
  max-clients-threshold 64
 exit
-
 wlan ssid-profile ${c}11
  enable
  type employee
@@ -580,7 +573,6 @@ wlan ssid-profile ${c}11
  local-probe-req-thresh 0
  max-clients-threshold 64
 exit
-
 wlan ssid-profile ${c}12
  enable
  type employee
@@ -598,7 +590,6 @@ wlan ssid-profile ${c}12
  local-probe-req-thresh 0
  max-clients-threshold 64
 exit
-
 wlan ssid-profile ${c}13
  enable
  type employee
@@ -616,7 +607,6 @@ wlan ssid-profile ${c}13
  local-probe-req-thresh 0
  max-clients-threshold 64
 exit
-
 wlan ssid-profile ${c}14
  enable
  type employee
@@ -634,7 +624,6 @@ wlan ssid-profile ${c}14
  local-probe-req-thresh 0
  max-clients-threshold 64
 exit
-
 wlan ssid-profile ${c}15
  enable
  type employee
@@ -652,7 +641,6 @@ wlan ssid-profile ${c}15
  local-probe-req-thresh 0
  max-clients-threshold 64
 exit
-
 wlan ssid-profile ${c}16
  enable
  type employee
