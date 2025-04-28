@@ -9,52 +9,52 @@ interface DisableCommandBoxProps {
 const HideHalf: React.FC<DisableCommandBoxProps> = ({ keyActive, halfID }) => {
   const commandHalf_Small = `
 configure terminal
-wlan ssid-profile ${keyActive}-1
+wlan ssid-profile ${keyActive}1
 no hide
 exit
-wlan ssid-profile ${keyActive}-2
+wlan ssid-profile ${keyActive}2
 no hide
 exit
-wlan ssid-profile ${keyActive}-3
+wlan ssid-profile ${keyActive}3
 no hide
 exit
-wlan ssid-profile ${keyActive}-4
+wlan ssid-profile ${keyActive}4
 no hide
 exit
-wlan ssid-profile ${keyActive}-5
+wlan ssid-profile ${keyActive}5
 no hide
 exit
-wlan ssid-profile ${keyActive}-6
+wlan ssid-profile ${keyActive}6
 no hide
 exit
-wlan ssid-profile ${keyActive}-7
+wlan ssid-profile ${keyActive}7
 no hide
 exit
-wlan ssid-profile ${keyActive}-8
+wlan ssid-profile ${keyActive}8
 no hide
 exit
-wlan ssid-profile ${keyActive}-9
+wlan ssid-profile ${keyActive}9
 hide
 exit
-wlan ssid-profile ${keyActive}-10
+wlan ssid-profile ${keyActive}10
 hide
 exit
-wlan ssid-profile ${keyActive}-11
+wlan ssid-profile ${keyActive}11
 hide
 exit
-wlan ssid-profile ${keyActive}-12
+wlan ssid-profile ${keyActive}12
 hide
 exit
-wlan ssid-profile ${keyActive}-13
+wlan ssid-profile ${keyActive}13
 hide
 exit
-wlan ssid-profile ${keyActive}-14
+wlan ssid-profile ${keyActive}14
 hide
 exit
-wlan ssid-profile ${keyActive}-15
+wlan ssid-profile ${keyActive}15
 hide
 exit
-wlan ssid-profile ${keyActive}-16
+wlan ssid-profile ${keyActive}16
 hide
 exit
 exit

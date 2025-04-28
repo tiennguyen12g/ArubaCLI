@@ -9,6 +9,7 @@ interface DisableCommandBoxProps {
 
 const SetupSSID: React.FC<DisableCommandBoxProps> = ({ keyActive, vlanFrom, partID }) => {
   const commandPart_1 = `
+configure terminal
 wlan ssid-profile ${keyActive}1
  enable
  type employee
@@ -26,7 +27,6 @@ wlan ssid-profile ${keyActive}1
  local-probe-req-thresh 0
  max-clients-threshold 64
 exit
-
 wlan ssid-profile ${keyActive}2
  enable
  type employee
@@ -44,7 +44,6 @@ wlan ssid-profile ${keyActive}2
  local-probe-req-thresh 0
  max-clients-threshold 64
 exit
-
 wlan ssid-profile ${keyActive}3
  enable
  type employee
@@ -62,7 +61,6 @@ wlan ssid-profile ${keyActive}3
  local-probe-req-thresh 0
  max-clients-threshold 64
 exit
-
 wlan ssid-profile ${keyActive}4
  enable
  type employee
@@ -80,7 +78,6 @@ wlan ssid-profile ${keyActive}4
  local-probe-req-thresh 0
  max-clients-threshold 64
 exit
-
 wlan ssid-profile ${keyActive}5
  enable
  type employee
@@ -98,7 +95,6 @@ wlan ssid-profile ${keyActive}5
  local-probe-req-thresh 0
  max-clients-threshold 64
 exit
-
 wlan ssid-profile ${keyActive}6
  enable
  type employee
@@ -116,7 +112,6 @@ wlan ssid-profile ${keyActive}6
  local-probe-req-thresh 0
  max-clients-threshold 64
 exit
-
 wlan ssid-profile ${keyActive}7
  enable
  type employee
@@ -134,7 +129,6 @@ wlan ssid-profile ${keyActive}7
  local-probe-req-thresh 0
  max-clients-threshold 64
 exit
-
 wlan ssid-profile ${keyActive}8
  enable
  type employee
@@ -181,6 +175,7 @@ commit apply
 `;
 
 const commandPart_2 = `
+configure terminal
 wlan ssid-profile ${keyActive}9
  enable
  type employee
@@ -198,7 +193,6 @@ wlan ssid-profile ${keyActive}9
  local-probe-req-thresh 0
  max-clients-threshold 64
 exit
-
 wlan ssid-profile ${keyActive}10
  enable
  type employee
@@ -216,7 +210,6 @@ wlan ssid-profile ${keyActive}10
  local-probe-req-thresh 0
  max-clients-threshold 64
 exit
-
 wlan ssid-profile ${keyActive}11
  enable
  type employee
@@ -234,7 +227,6 @@ wlan ssid-profile ${keyActive}11
  local-probe-req-thresh 0
  max-clients-threshold 64
 exit
-
 wlan ssid-profile ${keyActive}12
  enable
  type employee
@@ -252,7 +244,6 @@ wlan ssid-profile ${keyActive}12
  local-probe-req-thresh 0
  max-clients-threshold 64
 exit
-
 wlan ssid-profile ${keyActive}13
  enable
  type employee
@@ -270,7 +261,6 @@ wlan ssid-profile ${keyActive}13
  local-probe-req-thresh 0
  max-clients-threshold 64
 exit
-
 wlan ssid-profile ${keyActive}14
  enable
  type employee
@@ -288,7 +278,6 @@ wlan ssid-profile ${keyActive}14
  local-probe-req-thresh 0
  max-clients-threshold 64
 exit
-
 wlan ssid-profile ${keyActive}15
  enable
  type employee
@@ -306,7 +295,6 @@ wlan ssid-profile ${keyActive}15
  local-probe-req-thresh 0
  max-clients-threshold 64
 exit
-
 wlan ssid-profile ${keyActive}16
  enable
  type employee
